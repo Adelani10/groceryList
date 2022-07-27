@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.danger {
+    color: red;
+}
+.success {
+    color: green;
+}
+.show-cont{
+    display: inline;
+}

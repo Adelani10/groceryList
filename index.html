@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/main.css">
+    <link rel="stylesheet" href="./CSS/all.css">
+    <title>Grocery Needs</title>
+</head>
+<body>
+    <div class="flex items-center justify-center px-3 h-screen">
+        <div class="container mx-auto border-2 py-6 px-4 border-blue-100 space-y-6 shadow-md shadow-zinc-400 md:w-[550px]">
+            <form class="text-center form space-y-4">
+                <p class="text-md font-bold tracking-widest alert"></p>
+                <h1 class="font-bold text-zinc-900 tracking-widest text-3xl">
+                    Grocery List
+                </h1>
+                <input type="text" class="border-2 border-blue-400 input px-2 inline-block mr-0 rounded-l-md w-3/4"
+                    placeholder="e.g milk">
+        
+        
+                <button type="submit"
+                    class="rounded-r-md border-2 tracking-widest -ml-2 w-1/4 enter-btn border-blue-400 font-bold bg-blue-700 text-white hover:bg-blue-200 hover:scale-y-110">
+                    Enter
+                </button>
+            </form>
+        
+            <!-- list part -->
+        
+            <div class="cont px-2 hidden">
+                <div class="cont-list">
+                    <!-- <div class="item">
+                            
+                        </div> -->
+        
+                </div>
+                <div class=" pt-6 text-center">
+                    <button class="text-red-700 tracking-widest clear-btn font-bold hover:text-red-500">
+                        Clear Items
+                    </button>
+                </div>
+        
+            </div>
+        </div>
+    </div>
+    
+    <script src="./app.js" type="module"></script>
+</body>
+</html>
